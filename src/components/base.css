@@ -1,18 +1,37 @@
 @font-face {
-  font-family: "Avenir";
+  font-family: 'Avenir';
   font-weight: 400;
   font-style: normal;
-  src: url("/avenir-400.woff2") format("woff2");
+  src: url('/avenir-400.woff2') format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-style: normal;
+  src: url('/montserrat-v13-latin-regular.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat Bold';
+  font-weight: 700;
+  font-style: bold;
+  src: url('/montserrat-v13-latin-700.woff') format('woff');
   font-display: swap;
 }
 
 body {
-  font-family: "Avenir", Tahoma, Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', Tahoma, Arial, Helvetica, sans-serif;
   font-size: 1em;
   line-height: 1.65;
-  color: #373F49;
+  color: #494949;
   background: #eee;
   margin: 0;
+}
+
+a :hover,
+a :active {
+  text-decoration: none;
 }
 
 img {
@@ -24,7 +43,18 @@ h1,
 h2,
 h3 {
   font-size: 2em;
-  font-weight: normal;
+  font-family: 'Montserrat Bold';
+}
+
+h4,
+h5,
+h6 {
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+p {
+  margin-top: 5em;
 }
 
 a {
@@ -32,7 +62,7 @@ a {
 }
 
 .wrapper {
-  width: calc(100% - 10vmin);
+  width: calc(100% - 20vmin);
   margin: 0 auto;
   padding: 5vmin 0;
 }
@@ -67,6 +97,6 @@ a {
   list-style: none;
 }
 
-  .list-inline li {
-    display: inline-block;
-  }
+.list-inline li {
+  display: inline-block;
+}
