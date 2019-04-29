@@ -3,8 +3,14 @@
   justify-content: center;
   align-items: center;
   height: 61.8vh;
-  max-height: 400px;
+  margin: auto;
   background: #e1e1e1;
   font-size: 2em;
   overflow: hidden;
+}
+
+img {
+  margin: auto;
+  max-height: 400px;
+  width: auto;
 }
