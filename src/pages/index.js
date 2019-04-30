@@ -5,6 +5,7 @@ import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import Hero from '../components/hero'
 import Layout from '../components/layout'
+import About from './../components/about'
 import ArticlePreview from '../components/article-preview'
 
 class RootIndex extends React.Component {
@@ -15,10 +16,11 @@ class RootIndex extends React.Component {
 
     return (
       <Layout location={this.props.location}>
-        <div style={{ background: '#fff' }}>
+        <div>
           <Helmet title={siteTitle} />
-          <Hero id="about" data={author.node} />
+          <Hero data={author.node} />
           <div className="wrapper">
+            <About />
             <h6 id="projects" className="section-headline">
               PROJECTS
             </h6>
