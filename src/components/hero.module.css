@@ -3,12 +3,7 @@
   width: 60vw;
   margin: auto;
   margin-top: 10em;
-  margin-bottom: 10em;
-}
-
-.heroImage {
-  min-width: 100vw;
-  height: auto;
+  margin-bottom: 5em;
 }
 
 .heroHeadline {
