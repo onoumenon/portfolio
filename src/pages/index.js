@@ -1,5 +1,9 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGlobeAsia } from '@fortawesome/free-solid-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
@@ -7,6 +11,8 @@ import Hero from '../components/hero'
 import Layout from '../components/layout'
 import About from './../components/about'
 import ArticlePreview from '../components/article-preview'
+
+library.add(faGithub, faGlobeAsia)
 
 class RootIndex extends React.Component {
   render() {
@@ -56,6 +62,8 @@ export const pageQuery = graphql`
           slug
           publishDate(formatString: "MMMM Do, YYYY")
           tags
+          url
+          github
           heroImage {
             fluid(maxWidth: 350, maxHeight: 196, resizingBehavior: SCALE) {
               ...GatsbyContentfulFluid_tracedSVG

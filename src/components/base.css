@@ -77,6 +77,10 @@ a {
   margin-top: 5em;
 }
 
+.icon {
+  margin: 0.3em;
+}
+
 .wrapper {
   width: calc(100% - 20vmin);
   margin: 0 auto;
