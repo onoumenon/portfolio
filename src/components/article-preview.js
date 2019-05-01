@@ -11,11 +11,7 @@ export default ({ article }) => (
       <h4 className={styles.previewTitle}>{article.title}</h4>
     </Link>
     <small>{article.publishDate}</small>
-    <p
-      dangerouslySetInnerHTML={{
-        __html: article.description.childMarkdownRemark.html,
-      }}
-    />
+    <br />
     {article.tags.map(tag => (
       <p className={styles.tag} key={tag}>
         {tag}
