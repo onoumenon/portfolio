@@ -1,5 +1,4 @@
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import { graphql } from 'gatsby'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -27,9 +26,9 @@ class RootIndex extends React.Component {
           <Hero data={author.node} />
           <div className="wrapper">
             <About />
-            <h6 id="projects" className="section-headline">
+            <h3 id="projects" className="section-headline">
               PROJECTS
-            </h6>
+            </h3>
             <ul className="article-list">
               {posts.map(({ node }) => {
                 return (

@@ -2,6 +2,7 @@
   height: 90vh;
   margin: auto;
   background-image: url(https://i.imgur.com/jwTYF6h.jpg);
+  clip-path: polygon(0 0, 100% 0%, 100% 70%, 0% 100%);
   background-size: cover;
 }
 
@@ -9,18 +10,34 @@
   text-align: right;
   padding-top: 5vh;
   padding-right: 8vw;
-  font-variant-caps: all-petite-caps;
+  text-transform: uppercase;
   font-weight: bold;
 }
+
+.heroTitle,
+.heroHeadline {
+  line-height: 42pt;
+}
+
 @media only screen and (max-width: 600px) {
+  .hero {
+    clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+  }
+
+  .heroDetails {
+    padding-top: 1vh;
+    padding-right: 0vw;
+    width: 90vw;
+  }
+
   .heroTitle,
   .heroHeadline {
     background-image: -webkit-gradient(
       linear,
       right bottom,
       left top,
-      from(rgba(252, 252, 252, 0.8)),
-      to(rgba(0, 0, 0, 0))
+      from(rgba(252, 252, 252, 1)),
+      to(rgba(255, 233, 108, 0))
     );
   }
 }
