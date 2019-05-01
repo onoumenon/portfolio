@@ -2,8 +2,15 @@
   height: 90vh;
   margin: auto;
   background-image: url(https://i.imgur.com/jwTYF6h.jpg);
-  clip-path: polygon(0 0, 100% 0%, 100% 70%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 60%, 0% 100%);
   background-size: cover;
+}
+
+.bio {
+  padding: 5em;
+  width: 30em;
+  max-width: 80vw;
+  margin: auto;
 }
 
 .heroDetails {
@@ -20,6 +27,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .bio {
+    padding: 10vw;
+  }
   .hero {
     clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
   }

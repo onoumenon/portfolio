@@ -1,5 +1,6 @@
 .preview {
   width: 15em;
+  max-width: 70vw;
   margin: auto;
 }
 

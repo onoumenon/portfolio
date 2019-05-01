@@ -97,7 +97,7 @@ a {
 }
 
 .wrapper {
-  width: calc(100% - 20vmin);
+  width: calc(100% - 30vmin);
   margin: 0 auto;
   padding: 5vmin 0;
 }
@@ -142,15 +142,30 @@ hr {
   height: 100px;
   position: relative;
   margin-bottom: -1rem;
-  left: -30%;
-  width: 200%;
+  left: 10%;
+  width: 30%;
   display: block;
-  transform: rotate(-10deg);
-  box-shadow: 1rem 1rem 0 0 blue;
+  transform: rotate(20deg);
+  box-shadow: 1rem 1rem 0 0#3662c6;
 }
 
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 2.5em;
+  }
+  body {
+    font-family: 'Quicksand', 'Montserrat', Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1.65;
+    color: #363636;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 900;
   }
 }

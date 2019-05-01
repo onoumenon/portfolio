@@ -17,7 +17,7 @@ class BlogIndex extends React.Component {
           <Helmet title={siteTitle} />
           <div className={styles.hero}>Projects</div>
           <div className="wrapper">
-            <h2 className="section-headline">Selected Projects</h2>
+            <h3 className="section-headline">Selected Projects</h3>
             <ul className="article-list">
               {posts.map(({ node }) => {
                 return (
