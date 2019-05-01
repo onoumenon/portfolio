@@ -23,7 +23,7 @@ const About = props => {
           </CardTitle>
           <CardText />
           <CardSubtitle>
-            <h5>TOOLS</h5>
+            <h5>TOOLBOX</h5>
           </CardSubtitle>
           <CardText>
             Figma
@@ -50,7 +50,7 @@ const About = props => {
             <h3>Dev</h3>
           </CardTitle>
           <CardSubtitle>
-            <h5>TOOLS</h5>
+            <h5>TOOLBOX</h5>
           </CardSubtitle>
           <CardText>
             JavaScript (ES6)
@@ -66,7 +66,8 @@ const About = props => {
             with Mongoose
             <br />
             PostgresDB (Relational DB)
-            <br /> Sequelize
+            <br />
+            Sequelize
             <br />
             Express
             <br />
@@ -74,6 +75,9 @@ const About = props => {
             <br />
             Jest
             <br />
+            Travis
+            <br />
+            Circle CI
           </CardText>
         </CardBody>
       </Card>
@@ -95,12 +99,14 @@ const About = props => {
             <br />
             Agile Methodology
             <br />
-            React, React Native
+            Continous Integration
             <br />
-            Pair programming <br />
-            Express
+            Pair programming
             <br />
-            Node
+            Computer Science Basics
+            <br />
+            (via Harvard CS50)
+            <br />
             <br />
           </CardText>
         </CardBody>
