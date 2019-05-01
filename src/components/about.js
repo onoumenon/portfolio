@@ -47,7 +47,7 @@ const About = props => {
         />
         <CardBody>
           <CardTitle>
-            <h3>Development</h3>
+            <h3>Dev</h3>
           </CardTitle>
           <CardSubtitle>
             <h5>TOOLS</h5>
@@ -85,7 +85,7 @@ const About = props => {
         />
         <CardBody>
           <CardTitle>
-            <h3>Other Skills</h3>
+            <h3>Others</h3>
           </CardTitle>
           <CardSubtitle>
             <h5>SKILLS</h5>
