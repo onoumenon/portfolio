@@ -1,6 +1,7 @@
 import React from 'react'
 import {
   Card,
+  CardImg,
   CardTitle,
   CardText,
   CardDeck,
@@ -12,10 +13,11 @@ const About = props => {
   return (
     <CardDeck className="container" id="about">
       <Card className="card20" body outline color="grey">
-        <img
-          src="https://i.imgur.com/dVoFpzQ.png"
-          alt="Design"
+        <CardImg
+          top
           className="skills"
+          src="https://i.imgur.com/4MFU9PC.png"
+          alt="Design"
         />
         <CardBody>
           <CardTitle>
@@ -40,10 +42,11 @@ const About = props => {
         </CardBody>
       </Card>
       <Card className="card20" body outline color="grey">
-        <img
-          src="https://i.imgur.com/Q23f1p2.png"
-          alt="Development"
+        <CardImg
+          top
           className="skills"
+          src="https://i.imgur.com/7ABEQvm.png"
+          alt="Dev"
         />
         <CardBody>
           <CardTitle>
@@ -82,10 +85,11 @@ const About = props => {
         </CardBody>
       </Card>
       <Card className="card20" body outline color="grey">
-        <img
-          src="https://i.imgur.com/RR4aICr.png"
-          alt="Others"
+        <CardImg
+          top
           className="skills"
+          src="https://i.imgur.com/d50YIm9.png"
+          alt="Others"
         />
         <CardBody>
           <CardTitle>
