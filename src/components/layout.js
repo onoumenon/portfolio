@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import base from './base.css'
 import Container from './container'
 import Navigation from './navigation'
+import Footer from './footer'
 
 class Template extends React.Component {
   render() {
@@ -18,6 +19,7 @@ class Template extends React.Component {
       <>
         <Navigation />
         <Container>{children}</Container>
+        <Footer />
       </>
     )
   }
