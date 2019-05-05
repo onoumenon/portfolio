@@ -21,9 +21,14 @@
   font-display: swap;
 }
 
+* {
+  margin: auto;
+  text-align: center;
+}
+
 body {
   font-family: 'Quicksand', 'Montserrat', Tahoma, Arial, Helvetica, sans-serif;
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1.65;
   color: #5b5b5c;
   margin: 0;
@@ -31,8 +36,6 @@ body {
 }
 
 .container {
-  margin: auto;
-  text-align: center;
   margin-top: 10em;
   margin-bottom: 10em;
   justify-content: center;
