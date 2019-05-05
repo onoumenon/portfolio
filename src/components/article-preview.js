@@ -1,14 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import {
-  Card,
-  CardImg,
-  CardTitle,
-  CardText,
-  CardDeck,
-  CardSubtitle,
-  CardBody,
-} from 'reactstrap'
+import { Card, CardImg, CardTitle, CardBody } from 'reactstrap'
 import Img from 'gatsby-image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import styles from './article-preview.module.css'
