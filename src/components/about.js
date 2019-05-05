@@ -28,8 +28,6 @@ const About = props => {
             <h5>TOOLBOX</h5>
           </CardSubtitle>
           <CardText>
-            Figma
-            <br />
             Invision
             <br />
             Photoshop
@@ -58,7 +56,7 @@ const About = props => {
           <CardText>
             JavaScript (ES6)
             <br />
-            HTML + CSS
+            HTML5, CSS (with a touch of SASS)
             <br />
             React
             <br />
@@ -66,7 +64,7 @@ const About = props => {
             <br />
             MongoDB (No SQL)
             <br />
-            with Mongoose
+            Mongoose
             <br />
             PostgresDB (Relational DB)
             <br />
