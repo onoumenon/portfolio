@@ -1,14 +1,14 @@
 # Portfolio
 
-Created with Gatsby and Contentful [Contentful](https://www.contentful.com)
+This is the repo for my portfolio site. It is created with Gatsby and Contentful for the CMS[Contentful](https://www.contentful.com)
 
-## Features
+## Why Contentful?
 
 - Simple content model and structure. Easy to adjust to your needs.
-- Contentful integration using our [Sync API](https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/synchronization/initial-synchronization-of-entries-of-a-specific-content-type)
+- Contentful integration using the [Sync API](https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/synchronization/initial-synchronization-of-entries-of-a-specific-content-type)
 - Using our [Delivery API](https://www.contentful.com/developers/docs/references/content-delivery-api/).
 - Responsive/adaptive images via [gatsby-image](https://www.gatsbyjs.org/packages/gatsby-image/)
 
 ## Credits
 
-- Icons by [Flatart](https://www.iconfinder.com/Flatart)
+- Illustrations by [Ouch](https://icons8.com/ouch)
