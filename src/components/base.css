@@ -21,11 +21,6 @@
   font-display: swap;
 }
 
-* {
-  margin: auto;
-  text-align: center;
-}
-
 body {
   font-family: 'Quicksand', 'Montserrat', Tahoma, Arial, Helvetica, sans-serif;
   font-size: 1.2em;
@@ -36,6 +31,8 @@ body {
 }
 
 .container {
+  margin: auto;
+  text-align: center;
   margin-top: 10em;
   margin-bottom: 10em;
   justify-content: center;
