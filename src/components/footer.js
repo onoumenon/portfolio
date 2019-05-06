@@ -5,7 +5,7 @@ function Footer() {
     <footer className="pt-4">
       <div className="text-center py-3">
         <small>
-          © 2019 Tan Hui Tian, toolbox illustrations by{' '}
+          Made with Gatsby and Contentful © 2019 Tan Hui Tian, toolbox illustrations by{' '}
           <a href="https://icons8.com">Ouch.pics</a>
         </small>
       </div>
