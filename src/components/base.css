@@ -51,7 +51,7 @@ body {
 }
 
 .blog {
-  max-width: 30em;
+  max-width: 50vw;
 }
 
 a :hover,
@@ -153,6 +153,9 @@ hr {
   h1 {
     font-size: 2.5em;
   }
+  .blog {
+    max-width: 90vw;
+  }
   body {
     font-family: 'Quicksand', 'Montserrat', Tahoma, Arial, Helvetica, sans-serif;
     font-size: 1.2em;
@@ -172,5 +175,8 @@ hr {
     text-transform: uppercase;
     line-height: 2;
     font-size: 1.2rem;
+  }
+  img {
+    max-width: 90vw;
   }
 }
