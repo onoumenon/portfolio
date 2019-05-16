@@ -6,26 +6,35 @@
   font-display: swap;
 }
 @font-face {
-  font-family: 'Montserrat Bold';
+  font-family: 'SilkScreen Bold';
   font-weight: 400;
   font-style: normal;
-  src: url('/montserrat-v13-latin-900.woff') format('woff');
+  src: url('/slkscrb-webfont.woff') format('woff');
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Quicksand';
+  font-family: 'SilkScreen';
   font-weight: 400;
   font-style: normal;
-  src: url('/quicksand-v9-latin-regular.woff') format('woff');
+  src: url('/slkscr-webfont.woff') format('woff');
   font-display: swap;
 }
 
+.navcus .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(168,255,212, 1)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navcus .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0);
+}
+
 body {
-  font-family: 'Quicksand', 'Montserrat', Tahoma, Arial, Helvetica, sans-serif;
+  background-color: #16192c;
+  font-family: 'SilkScreen', 'Montserrat', Tahoma, Arial, Helvetica, sans-serif;
   font-size: 1.2em;
   line-height: 1.65;
-  color: #5b5b5c;
+  color: #a4ffd2;
   margin: 0;
   overflow-wrap: break-word;
 }
@@ -44,6 +53,7 @@ body {
   margin-left: 3em;
   margin-right: 3em;
   margin-bottom: 1em;
+  color: #a8ffd4;
 }
 
 .card20 {
@@ -61,26 +71,27 @@ a :active {
 
 h1,
 h2 {
-  font-family: 'Montserrat Bold', Tahoma, Arial, Helvetica, sans-serif;
+  font-family: 'SilkScreen Bold', Tahoma, Arial, Helvetica, sans-serif;
   font-size: 5em;
-  color: #ff8471;
+  color: #fd502e;
 }
 
 h3 {
-  font-family: 'Montserrat Bold', Tahoma, Arial, Helvetica, sans-serif;
+  font-family: 'SilkScreen Bold', Tahoma, Arial, Helvetica, sans-serif;
   font-size: 1.5em;
-  color: #3662c6;
+  color: #3871f7;
 }
 
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', Tahoma, Arial, Helvetica, sans-serif;
+  font-family: 'SilkScreen', Tahoma, Arial, Helvetica, sans-serif;
   letter-spacing: 0.1em;
-  color: #41484d;
+  color: #a4ffd2;
 }
 
 p {
+  font-family: 'Montserrat';
   font-size: 0.9em;
 }
 
@@ -89,11 +100,14 @@ a {
 }
 
 .skills {
-  height: auto;
+  height: 72px;
+  width: 66px;
 }
 
-.icon {
+.article.icon {
   margin-right: 0.5em;
+  margin-bottom: 0.5em;
+  color: #a4ffd2;
 }
 
 .wrapper {
@@ -120,7 +134,7 @@ a {
 .section-headline {
   padding: 0 0 0.4em 0;
   margin: 0 0 5vmin 0;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #a4ffd2;
 }
 
 /**
@@ -138,7 +152,7 @@ a {
 
 hr {
   border: none;
-  background: yellow;
+  background: #fd502e;
   height: 100px;
   position: relative;
   margin-bottom: -1rem;
@@ -146,7 +160,7 @@ hr {
   width: 30%;
   display: block;
   transform: rotate(20deg);
-  box-shadow: 1rem 1rem 0 0#3662c6;
+  box-shadow: 1rem 1rem 0 0 #3871f7;
 }
 
 @media only screen and (max-width: 600px) {
@@ -157,11 +171,12 @@ hr {
     max-width: 90vw;
   }
   body {
-    font-family: 'Quicksand', 'Montserrat', Tahoma, Arial, Helvetica, sans-serif;
+    font-family: 'SilkScreen', 'Montserrat', Tahoma, Arial, Helvetica,
+      sans-serif;
     font-size: 1.2em;
     font-weight: 600;
     line-height: 1.65;
-    color: #363636;
+    color: #a4ffd2;
   }
   h1,
   h2,
