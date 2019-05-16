@@ -1,7 +1,11 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faGlobeAsia } from '@fortawesome/free-solid-svg-icons'
+import {
+  faGlobeAsia,
+  faChevronDown,
+  faHandPointRight,
+} from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
@@ -10,7 +14,7 @@ import Layout from '../components/layout'
 import About from './../components/about'
 import ArticlePreview from '../components/article-preview'
 
-library.add(faGithub, faGlobeAsia)
+library.add(faGithub, faGlobeAsia, faChevronDown, faHandPointRight)
 
 class RootIndex extends React.Component {
   render() {
