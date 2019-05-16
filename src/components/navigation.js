@@ -25,9 +25,9 @@ export default class Navigation extends React.Component {
   }
   render() {
     return (
-      <Navbar color="white" light expand="md" className="navcus">
+      <Navbar color="#16192c" dark expand="md" className="navcus">
         <NavbarBrand href="/">
-          <h5>TAN HUI TIAN</h5>
+          <h5>ONOUMENON</h5>
         </NavbarBrand>
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>
