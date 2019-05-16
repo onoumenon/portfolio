@@ -12,13 +12,15 @@ import {
 const About = props => {
   return (
     <CardDeck className="container" id="about">
-      <Card className="card20" body outline color="grey">
-        <CardImg
-          top
-          className="skills"
-          src="https://i.imgur.com/4MFU9PC.png"
-          alt="Design"
-        />
+      <Card
+        className="card20"
+        body
+        style={{
+          backgroundColor: '#16192c',
+          color: '#a4ffd2',
+        }}
+      >
+        <CardImg top className="skills" src="/pencil.png" alt="Design" />
         <CardBody>
           <CardTitle>
             <h3>Design</h3>
@@ -39,13 +41,15 @@ const About = props => {
           </CardText>
         </CardBody>
       </Card>
-      <Card className="card20" body outline color="grey">
-        <CardImg
-          top
-          className="skills"
-          src="https://i.imgur.com/7ABEQvm.png"
-          alt="Dev"
-        />
+      <Card
+        className="card20"
+        body
+        style={{
+          backgroundColor: '#16192c',
+          color: '#a4ffd2',
+        }}
+      >
+        <CardImg top className="skills" src="laptop.png" alt="Dev" />
         <CardBody>
           <CardTitle>
             <h3>Dev</h3>
@@ -82,13 +86,15 @@ const About = props => {
           </CardText>
         </CardBody>
       </Card>
-      <Card className="card20" body outline color="grey">
-        <CardImg
-          top
-          className="skills"
-          src="https://i.imgur.com/d50YIm9.png"
-          alt="Others"
-        />
+      <Card
+        className="card20"
+        body
+        style={{
+          backgroundColor: '#16192c',
+          color: '#a4ffd2',
+        }}
+      >
+        <CardImg top className="skills" src="smiley.png" alt="Others" />
         <CardBody>
           <CardTitle>
             <h3>Others</h3>
