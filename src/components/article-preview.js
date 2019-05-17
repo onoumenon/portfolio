@@ -8,7 +8,11 @@ export default ({ article }) => (
   <Card inverse className="card20">
     <CardBody>
       <Link to={`/blog/${article.slug}`}>
-        <CardImg alt={article.slug} src={article.heroImage.fluid.src} />
+        <CardImg
+          alt={article.slug}
+          src={article.heroImage.fluid.src}
+          className="cube"
+        />
         <CardTitle className={styles.previewTitle}>{article.title}</CardTitle>
       </Link>
       <a href={article.url}>

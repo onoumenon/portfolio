@@ -119,6 +119,11 @@ a {
   color: currentColor;
 }
 
+.cube {
+  width: 150px;
+  height: 177px;
+}
+
 .skills {
   height: 72px;
   width: 66px;
