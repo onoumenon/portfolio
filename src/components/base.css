@@ -216,6 +216,9 @@ hr {
   .blog {
     max-width: 90vw;
   }
+  .toggleImg {
+    max-width: 50vw;
+  }
   body {
     font-family: 'SilkScreen', 'Montserrat', Tahoma, Arial, Helvetica,
       sans-serif;
