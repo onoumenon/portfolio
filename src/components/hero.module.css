@@ -1,7 +1,8 @@
 .hero {
   height: 490px;
   width: auto;
-  max-width: 100vw;
+  max-width: 90vw;
+  margin: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-image: url('/images/header.png');
