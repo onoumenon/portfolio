@@ -6,6 +6,12 @@ import Bounce from 'react-reveal/Bounce'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default class Example extends Component {
+  state = { isMore: true }
+
+  moreOrLess = () => {
+    this.setState({ isMore: !this.state.isMore })
+  }
+
   render() {
     return (
       <>
@@ -28,9 +34,9 @@ export default class Example extends Component {
             </h3>
 
             <br />
-            <div className="hoverBounce">
+            <div className="hoverBounce" onClick={this.moreOrLess}>
               <h3 id="aboutMe">
-                more{' '}
+                {this.state.isMore ? 'more' : 'less'}{' '}
                 <FontAwesomeIcon
                   className="icon text-primary"
                   icon="hand-point-right"
