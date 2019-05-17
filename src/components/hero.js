@@ -1,11 +1,6 @@
 import React, { Component } from 'react'
 import styles from './hero.module.css'
-import {
-  UncontrolledPopover,
-  PopoverHeader,
-  PopoverBody,
-  UncontrolledCollapse,
-} from 'reactstrap'
+import { UncontrolledCollapse } from 'reactstrap'
 import Bounce from 'react-reveal/Bounce'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -29,22 +24,7 @@ export default class Example extends Component {
             <h1 className={styles.heroHeadline}>Hui Tian,</h1>
 
             <h3 className={styles.heroTitle}>
-              a{' '}
-              <span className="text-warning" id="PopoverFocus">
-                full stack
-              </span>{' '}
-              web developer.
-              <UncontrolledPopover
-                trigger="focus hover"
-                placement="right"
-                target="PopoverFocus"
-              >
-                <PopoverHeader>MERN stack</PopoverHeader>
-                <PopoverBody>
-                  Frontend: React | Backend: Node, Express | DB: MongoDB,
-                  PostgreSQL
-                </PopoverBody>
-              </UncontrolledPopover>
+              a <span className="text-warning">full stack</span> web developer.
             </h3>
 
             <br />
