@@ -12,13 +12,13 @@ export default ({ article }) => (
         <CardTitle className={styles.previewTitle}>{article.title}</CardTitle>
       </Link>
       <a href={article.url}>
-        <FontAwesomeIcon className="icon article" icon="globe-asia" size="2x" />
+        <FontAwesomeIcon className="icon article" icon="globe-asia" size="lg" />
       </a>
       <a href={article.github}>
         <FontAwesomeIcon
           className="icon article"
           icon={['fab', 'github']}
-          size="2x"
+          size="lg"
         />
       </a>
       <br />
