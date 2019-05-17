@@ -42,8 +42,8 @@ body {
 .container {
   margin: auto;
   text-align: center;
-  margin-top: 10em;
-  margin-bottom: 10em;
+  margin-top: 5em;
+  margin-bottom: 5em;
   justify-content: center;
 }
 
@@ -57,7 +57,12 @@ body {
 }
 
 .card20 {
-  max-width: 20em;
+  width: 25vw;
+  min-width: 14em;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background-color: #16192c;
+  color: #a4ffd2;
+  margin-bottom: 3em;
 }
 
 .blog {
@@ -67,6 +72,21 @@ body {
 a :hover,
 a :active {
   font-weight: 600;
+}
+
+.hoverBounce :hover {
+  animation: slideRight 1s ease-in-out infinite;
+}
+
+@keyframes slideRight {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(10px, 0px);
+  }
 }
 
 h1,
@@ -102,6 +122,11 @@ a {
 .skills {
   height: 72px;
   width: 66px;
+}
+.skillIcon {
+  display: inline-block;
+  width: 62px;
+  height: 62px;
 }
 
 .article.icon {

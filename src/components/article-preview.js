@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import styles from './article-preview.module.css'
 
 export default ({ article }) => (
-  <Card inverse style={{ backgroundColor: '#16192c' }}>
+  <Card inverse className="card20">
     <CardBody>
       <Link to={`/blog/${article.slug}`}>
         <CardImg alt={article.slug} src={article.heroImage.fluid.src} />

@@ -1,11 +1,12 @@
 .hero {
-  height: 690px;
+  height: 490px;
   width: auto;
   max-width: 100vw;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url('/header.png');
+  background-image: url('/images/header.png');
   background-size: contain;
+  margin-bottom: 10em;
 }
 
 .bio {

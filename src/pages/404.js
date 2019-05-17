@@ -37,7 +37,7 @@ class Dev404Page extends React.Component {
     ) : (
       <div className="mt-5">
         <h3>Sorry,</h3>
-        <img src="/404.png" />
+        <img src="/images/404.png" />
         <h3>page not found.</h3>
       </div>
     )

@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import { CardDeck } from 'reactstrap'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import {
   faGlobeAsia,
@@ -13,6 +14,7 @@ import Hero from '../components/hero'
 import Layout from '../components/layout'
 import About from './../components/about'
 import ArticlePreview from '../components/article-preview'
+import Zoom from 'react-reveal/Zoom'
 
 library.add(faGithub, faGlobeAsia, faChevronDown, faHandPointRight)
 
@@ -33,13 +35,17 @@ class RootIndex extends React.Component {
               PROJECTS
             </h3>
             <ul className="article-list">
-              {posts.map(({ node }) => {
-                return (
-                  <li key={node.slug}>
-                    <ArticlePreview article={node} />
-                  </li>
-                )
-              })}
+              <CardDeck className="container">
+                <Zoom>
+                  {posts.map(({ node }) => {
+                    return (
+                      <li key={node.slug}>
+                        <ArticlePreview article={node} />
+                      </li>
+                    )
+                  })}
+                </Zoom>
+              </CardDeck>
             </ul>
           </div>
         </div>
