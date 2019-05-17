@@ -36,7 +36,7 @@ export default class Example extends Component {
               web developer.
               <UncontrolledPopover
                 trigger="focus hover"
-                placement="bottom"
+                placement="right"
                 target="PopoverFocus"
               >
                 <PopoverHeader>MERN stack</PopoverHeader>
@@ -63,14 +63,7 @@ export default class Example extends Component {
               <p>
                 Prior to that, I was an art director/ senior illustrator, with 8
                 years of experience in the art industry. I decided to make the
-                career switch to pursue my interest in programming. I'm a firm
-                believer of{' '}
-                <i>
-                  <a href="https://en.wikipedia.org/wiki/Multipotentiality">
-                    multipotentiality
-                  </a>
-                </i>{' '}
-                and learning voraciously.
+                career switch to pursue my interest in programming.
               </p>
               <br />
               <p>
