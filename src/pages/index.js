@@ -19,6 +19,13 @@ import Zoom from 'react-reveal/Zoom'
 library.add(faGithub, faGlobeAsia, faChevronDown, faHandPointRight)
 
 class RootIndex extends React.Component {
+  renderHoveredArticleImage = () => {
+    if (!this.state.selectedArticle) {
+      return
+    }
+    return <img src="images/404.png" />
+  }
+
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const posts = get(this, 'props.data.allContentfulBlogPost.edges')

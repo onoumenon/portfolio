@@ -78,6 +78,17 @@ a :active {
   animation: slideRight 1s ease-in-out infinite;
 }
 
+@keyframes slide1 {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(0, 10px);
+  }
+}
+
 @keyframes slideRight {
   0%,
   100% {
@@ -122,6 +133,12 @@ a {
 .cube {
   width: 150px;
   height: 177px;
+  animation: slide1 1s ease-in-out infinite;
+}
+.toggleImg {
+  width: auto;
+  height: auto;
+  max-width: 14em;
 }
 
 .skills {
