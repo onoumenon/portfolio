@@ -30,7 +30,9 @@ export default class Example extends Component {
             <h1 className={styles.heroHeadline}>Hui Tian,</h1>
 
             <h3 className={styles.heroTitle}>
-              a <span className="text-warning">full stack</span> web developer.
+              an aspiring
+              <br /> <span className="text-warning">full stack</span>
+              <br /> web developer.
             </h3>
 
             <br />
