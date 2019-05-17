@@ -7,6 +7,7 @@ import {
   CardGroup,
   CardSubtitle,
   CardBody,
+  UncontrolledTooltip,
 } from 'reactstrap'
 import Zoom from 'react-reveal/Zoom'
 
@@ -55,10 +56,15 @@ const About = props => {
                 className="skillIcon"
                 alt="mongodb"
               />
+              <h6>
+                HTML | JS ES6 | CSS | React Native Expo | React | Jest | Node |
+                Express | CircleCI | SQL | PostgreSQL | MongoDB
+              </h6>
             </CardText>
           </CardBody>
         </Card>
-        <Card className="card20" body>
+
+        <Card className="card20" body id="devpractices">
           <CardImg
             top
             className="skills"
@@ -78,10 +84,12 @@ const About = props => {
               <br />
               <img src="/images/agile.png" className="skillIcon" alt="agile" />
               <img src="/images/pp.png" className="skillIcon" alt="pp" />
+              <h6>TDD | CI | Agile | Pair Programming</h6>
             </CardText>
           </CardBody>
         </Card>
-        <Card className="card20" body>
+
+        <Card className="card20" body id="designtools">
           <CardImg
             top
             className="skills"
@@ -102,6 +110,7 @@ const About = props => {
               <br />
               <img src="/images/ai.png" className="skillIcon" alt="ai" />
               <img src="/images/in.png" className="skillIcon" alt="in" />
+              <h6>Adobe XD | Adobe Photoshop | Adobe Illustrator | InVision</h6>
             </CardText>
           </CardBody>
         </Card>
