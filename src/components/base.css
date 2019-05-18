@@ -57,7 +57,7 @@ body {
 
 .card20 {
   width: 25vw;
-  min-width: 12em;
+  min-width: 11em;
   background-color: #16192c;
   color: #a4ffd2;
   margin-bottom: 3em;
@@ -241,9 +241,5 @@ hr {
   }
   img {
     max-width: 80vw;
-  }
-  .wrapper {
-    padding: 0;
-    width: 80vw;
   }
 }

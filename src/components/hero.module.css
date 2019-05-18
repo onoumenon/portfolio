@@ -1,5 +1,6 @@
 .hero {
   height: 490px;
+  max-height: 60vh;
   width: auto;
   max-width: 90vw;
   margin: auto;
@@ -18,9 +19,10 @@
 }
 
 .heroDetails {
-  position: relative;
+  position: absolute;
   text-align: center;
-  top: 100%;
+  top: 75vh;
+  left: 45vw;
   animation: slide1 1s ease-in-out infinite;
 }
 
@@ -42,9 +44,5 @@
 @media only screen and (max-width: 600px) {
   .bio {
     padding: 10vw;
-  }
-  .hero {
-    position: relative;
-    bottom: 10vh;
   }
 }
