@@ -18,10 +18,9 @@
 }
 
 .heroDetails {
-  position: absolute;
+  position: relative;
   text-align: center;
-  top: 85vh;
-  left: 45vw;
+  top: 100%;
   animation: slide1 1s ease-in-out infinite;
 }
 
@@ -43,5 +42,9 @@
 @media only screen and (max-width: 600px) {
   .bio {
     padding: 10vw;
+  }
+  .hero {
+    position: relative;
+    bottom: 10vh;
   }
 }

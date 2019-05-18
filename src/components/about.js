@@ -63,12 +63,12 @@ const About = props => {
                 alt="cypress"
               />
               <br />
-              {devTools.map(tool => (
-                <p className={styles.tag} key={tool}>
-                  {tool}
-                </p>
-              ))}
             </CardText>
+            {devTools.map(tool => (
+              <p className={styles.tag} key={tool}>
+                {tool}
+              </p>
+            ))}
           </CardBody>
         </Card>
 
@@ -93,12 +93,12 @@ const About = props => {
               <img src="/images/agile.png" className="skillIcon" alt="agile" />
               <img src="/images/pp.png" className="skillIcon" alt="pp" />
               <br />
-              {devPractices.map(tool => (
-                <p className={styles.tag} key={tool}>
-                  {tool}
-                </p>
-              ))}
             </CardText>
+            {devPractices.map(tool => (
+              <p className={styles.tag} key={tool}>
+                {tool}
+              </p>
+            ))}
           </CardBody>
         </Card>
 
@@ -124,12 +124,12 @@ const About = props => {
               <img src="/images/ai.png" className="skillIcon" alt="ai" />
               <img src="/images/in.png" className="skillIcon" alt="in" />
               <br />
-              {designTools.map(tool => (
-                <p className={styles.tag} key={tool}>
-                  {tool}
-                </p>
-              ))}
             </CardText>
+            {designTools.map(tool => (
+              <p className={styles.tag} key={tool}>
+                {tool}
+              </p>
+            ))}
           </CardBody>
         </Card>
       </Zoom>
