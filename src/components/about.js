@@ -84,7 +84,7 @@ const About = props => {
               <h3>Dev</h3>
             </CardTitle>
             <CardSubtitle>
-              <h5>PRACTICES</h5>
+              <h5>PRACTICE</h5>
             </CardSubtitle>
             <CardText>
               <img src="/images/tdd.png" className="skillIcon" alt="tdd" />
