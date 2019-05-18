@@ -7,9 +7,10 @@ import {
   CardGroup,
   CardSubtitle,
   CardBody,
-  UncontrolledTooltip,
 } from 'reactstrap'
+import { devTools, devPractices, designTools } from '../services/skillsServices'
 import Zoom from 'react-reveal/Zoom'
+import styles from './article-preview.module.css'
 
 const About = props => {
   return (
@@ -61,11 +62,13 @@ const About = props => {
                 className="skillIcon"
                 alt="cypress"
               />
+              <br />
+              {devTools.map(tool => (
+                <p className={styles.tag} key={tool}>
+                  {tool}
+                </p>
+              ))}
             </CardText>
-            <h6>
-              HTML, JS ES6, CSS, React Native, Expo, React, Jest, Node, Express,
-              CircleCI, SQL, PostgreSQL, MongoDB, Cypress
-            </h6>
           </CardBody>
         </Card>
 
@@ -89,8 +92,13 @@ const About = props => {
               <br />
               <img src="/images/agile.png" className="skillIcon" alt="agile" />
               <img src="/images/pp.png" className="skillIcon" alt="pp" />
+              <br />
+              {devPractices.map(tool => (
+                <p className={styles.tag} key={tool}>
+                  {tool}
+                </p>
+              ))}
             </CardText>
-            <h6>TDD, CI, Agile, Pair Programming</h6>
           </CardBody>
         </Card>
 
@@ -115,8 +123,13 @@ const About = props => {
               <br />
               <img src="/images/ai.png" className="skillIcon" alt="ai" />
               <img src="/images/in.png" className="skillIcon" alt="in" />
+              <br />
+              {designTools.map(tool => (
+                <p className={styles.tag} key={tool}>
+                  {tool}
+                </p>
+              ))}
             </CardText>
-            <h6>Adobe XD, Adobe Photoshop, Adobe Illustrator, InVision</h6>
           </CardBody>
         </Card>
       </Zoom>
